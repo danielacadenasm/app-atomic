@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-native-elements';
 
-const btnPpal = () => {
+const BtnPpal = () => {
     return (
         <Button
           title="¡Quiero ser parte!"
@@ -11,4 +11,4 @@ const btnPpal = () => {
     );
 };
 
-export default btnPpal;
+export default BtnPpal;
