@@ -6,18 +6,12 @@ import {
 } from 'react-native';
 import Logo from '../../components/Logo';
 import Headline from './molecules/Headline';
-import BtnArrow from './molecules/BtnArrow';
+import Message from './molecules/Message';
 import ImgAstronaut from './atoms/ImgAstronaut';
-import BtnWhite from './molecules/BtnWhite';
-import HeadlineTechnology from './molecules/HeadlineTechnology';
-import CardOrange from './molecules/CardOrange';
-import HeadlineUs from './molecules/HeadlineUs';
-import Steps from './molecules/Steps';
-import HeadlineTeam from './molecules/HeadlineTeam';
 
 import Footer from '../../components/Footer';
 
-const Home = () => {
+const End = () => {
   return (
     <ImageBackground
       source={require('../../assets/images/cortado.png')}
@@ -26,15 +20,8 @@ const Home = () => {
       <ScrollView style={styles.container}>
         <Logo/>
         <Headline/>
-        <BtnArrow/>
+        <Message/>
         <ImgAstronaut/>
-        <BtnWhite/>
-        <HeadlineTechnology/>
-        <CardOrange/>
-        <HeadlineUs/>
-        <Steps/>
-        <BtnWhite/>
-        <HeadlineTeam/>
         <Footer/>
       </ScrollView>
     </ImageBackground>
@@ -51,4 +38,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default End;

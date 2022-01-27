@@ -9,12 +9,12 @@ const BtnPpal = () => {
         backgroundColor: '#fff',
         borderRadius: 20,
         height: 60,
-        width: 220,
-        margin: 10,
+        width: 200,
+        marginVertical: 10,
       }}
       titleStyle={{
         fontFamily: 'Verdana',
-        fontSize: 20,
+        fontSize: 18,
         color: '#006EA0',
         fontWeight: 'bold',
       }}

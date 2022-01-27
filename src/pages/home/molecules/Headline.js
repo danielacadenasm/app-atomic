@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const Encabezado = () => {
+const Headline = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.e1}>Desarrolla todo</Text>
@@ -21,34 +21,40 @@ const styles = StyleSheet.create({
     fontFamily: 'Verdana',
     fontSize: 45,
     fontWeight: 'bold',
-    marginBottom: -15,
+    marginBottom: -10,
+    letterSpacing: 2,
   },
   e2: {
     color: '#E84F0C',
     fontFamily: 'Verdana',
     fontSize: 45,
     fontWeight: 'bold',
-    marginBottom: -15,
+    marginBottom: -10,
+    letterSpacing: 4,
   },
   e3: {
     color: '#fff',
     fontFamily: 'Verdana',
     fontSize: 45,
     fontWeight: 'bold',
-    marginBottom: -15,
+    marginBottom: -10,
+    letterSpacing: -1,
   },
   e4: {
     color: '#fff',
     fontFamily: 'Verdana',
     fontSize: 45,
     fontWeight: 'bold',
+    textTransform: 'uppercase',
+    letterSpacing: 7,
   },
   e5: {
     color: '#E84F0C',
     fontFamily: 'Verdana',
     fontSize: 45,
     fontWeight: 'bold',
+    letterSpacing: 4,
   },
 });
 
-export default Encabezado;
+export default Headline;
