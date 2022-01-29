@@ -16,14 +16,14 @@ const styles = StyleSheet.create({
   },
   e1: {
     color: '#fff',
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 30,
     fontWeight: 'bold',
     textTransform: 'uppercase',
   },
   e2: {
     color: '#E84F0C',
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 30,
     fontWeight: 'bold',
     textTransform: 'uppercase',

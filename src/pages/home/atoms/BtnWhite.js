@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-native-elements';
 
-const BtnPpal = () => {
+const BtnWhite = () => {
   return (
     <Button
       title='¡Quiero ser parte!'
@@ -13,7 +13,7 @@ const BtnPpal = () => {
         marginVertical: 10,
       }}
       titleStyle={{
-        fontFamily: 'Verdana',
+        fontFamily: 'OpenSans',
         fontSize: 18,
         color: '#006EA0',
         fontWeight: 'bold',
@@ -25,4 +25,4 @@ const BtnPpal = () => {
   );
 };
 
-export default BtnPpal;
+export default BtnWhite;

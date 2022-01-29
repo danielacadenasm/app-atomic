@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import Logo from '../../components/Logo';
 import Headline from './molecules/Headline';
-import Message from './molecules/Message';
+import Message from './atoms/Message';
 import ImgAstronaut from './atoms/ImgAstronaut';
 
 import Footer from '../../components/Footer';

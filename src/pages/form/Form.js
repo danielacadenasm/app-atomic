@@ -5,19 +5,17 @@ import {
   StyleSheet,
 } from 'react-native';
 import Logo from '../../components/Logo';
-import Headline from './molecules/Headline';
-import BtnArrow from './molecules/BtnArrow';
+import HeadlineFormOne from './molecules/HeadlineFormOne';
+import HeadlineFormTwo from './molecules/HeadlineFormTwo';
+import Message from './atoms/Message';
+import InputNames from './atoms/InputNames';
+import InputLastNames from './atoms/InputLastNames';
+import BtnOrange from './atoms/BtnOrange';
 import ImgAstronaut from './atoms/ImgAstronaut';
-import BtnWhite from './atoms/BtnWhite';
-import HeadlineTechnology from './molecules/HeadlineTechnology';
-import CardOrange from './molecules/CardOrange';
-import HeadlineUs from './molecules/HeadlineUs';
-import Steps from './molecules/Steps';
-import HeadlineTeam from './atoms/HeadlineTeam';
 
 import Footer from '../../components/Footer';
 
-const Home = () => {
+const Form = () => {
   return (
     <ImageBackground
       source={require('../../assets/images/cortado.png')}
@@ -25,16 +23,12 @@ const Home = () => {
     >
       <ScrollView style={styles.container}>
         <Logo/>
-        <Headline/>
-        <BtnArrow/>
+        <HeadlineFormOne/>
+        <Message/>
+        <InputNames/>
+        <InputLastNames/>
+        <BtnOrange/>
         <ImgAstronaut/>
-        <BtnWhite/>
-        <HeadlineTechnology/>
-        <CardOrange/>
-        <HeadlineUs/>
-        <Steps/>
-        <BtnWhite/>
-        <HeadlineTeam/>
         <Footer/>
       </ScrollView>
     </ImageBackground>
@@ -51,4 +45,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Form;

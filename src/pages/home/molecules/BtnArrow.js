@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   txt: {
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 18,
     color: '#fff',
     fontWeight: 'bold',

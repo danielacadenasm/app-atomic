@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   },
   e1: {
     color: '#fff',
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 45,
     fontWeight: 'bold',
     marginBottom: -10,
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   e2: {
     color: '#E84F0C',
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 45,
     fontWeight: 'bold',
     marginBottom: -10,
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
   e3: {
     color: '#fff',
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 45,
     fontWeight: 'bold',
     marginBottom: -10,
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   e4: {
     color: '#fff',
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 45,
     fontWeight: 'bold',
     textTransform: 'uppercase',
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   },
   e5: {
     color: '#E84F0C',
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 45,
     fontWeight: 'bold',
     letterSpacing: 4,

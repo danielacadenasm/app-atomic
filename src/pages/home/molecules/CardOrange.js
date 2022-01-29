@@ -1,8 +1,8 @@
 import React from 'react';
-import { SafeAreaView, View, FlatList, StyleSheet, Text } from 'react-native';
+import { SafeAreaView, View, Text, FlatList, StyleSheet } from 'react-native';
 import { Image } from 'react-native-elements';
 
-const DATA = [
+const services = [
   {
     key: '1',
     title: 'IMAGINA',
@@ -19,41 +19,37 @@ const DATA = [
     image: '../../../assets/images/3.png',
   },
 ];
-// como sería la tarjeta
-const Item = ({ title, image }) => (
-  <View style={styles.item}>
-    <Image
-        source={image}
-        containerStyle={{
-            width: 70,
-            height: 70,
-        }}/>
-    <Text style={styles.title}>{title}</Text>
-  </View>
-);
 
 const CardOrange = () => {
 
-  const renderItem = ({ item }) => (
-    <Item
-    title={item.title}
-    image={item.image}
-    />
+  const Services = ({title, image}) => (
+    <View style={styles.item}>
+      <Image
+          source={image}
+          containerStyle={{
+              width: 70,
+              height: 70,
+          }}/>
+      <Text style={styles.title}>{title}</Text>
+    </View>
   );
-
+  
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        data={DATA}
-        renderItem={renderItem}
+        data={services}
+        renderItem={({item}) => <Services item={item} />}
         keyExtractor={item => item.key}
         horizontal
       />
     </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
+  container: {
+    justifyContent: 'center',
+  },
   item: {
     backgroundColor: '#E84F0C',
     width: 360,
@@ -64,9 +60,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
+    fontFamily: 'OpenSans',
     fontSize: 30,
-    fontWeight: 'bold',
-    fontFamily: 'Verdana',
     color: '#fff',
   },
 });

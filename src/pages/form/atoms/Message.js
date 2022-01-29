@@ -5,12 +5,8 @@ const Message = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.txt}>
-        En breve recibirás un correo de{"\n"}
-        confirmación por parte del equipo de{"\n"}
-        AtomicLabs.{"\n"}
-        {"\n"}
-        Recuerda revisar tu bandeja de SPAM{"\n"}
-        ¡Esperamos verte pronto!
+        Queremos saber que eres tú, por favor{"\n"}
+        ingresa los siguientes datos:{"\n"}
       </Text>
     </View>
   );
@@ -21,7 +17,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 15,
   },
   txt: {
-    fontFamily: 'Verdana',
+    fontFamily: 'OpenSans',
     fontSize: 20,
     color: '#fff',
   },
