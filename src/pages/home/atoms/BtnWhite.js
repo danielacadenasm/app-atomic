@@ -1,7 +1,10 @@
 import React from 'react';
 import { Button } from 'react-native-elements';
+import { useNavigation } from '@react-navigation/native';
 
 const BtnWhite = () => {
+  var navigation = useNavigation();
+
   return (
     <Button
       title='¡Quiero ser parte!'
@@ -21,6 +24,7 @@ const BtnWhite = () => {
       containerStyle={{
         alignItems: 'center',
       }}
+      onPress={ () => navigation.navigate('Form') }
     />
   );
 };

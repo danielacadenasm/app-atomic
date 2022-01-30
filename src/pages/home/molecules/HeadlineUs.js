@@ -14,7 +14,7 @@ const HeadlineUs = () => {
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    marginVertical: 35,
+    marginTop: 35,
   },
   e1: {
     color: '#fff',

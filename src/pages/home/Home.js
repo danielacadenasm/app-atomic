@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  ImageBackground,
-  ScrollView,
-  StyleSheet,
-} from 'react-native';
+import { ImageBackground, ScrollView, StyleSheet } from 'react-native';
 import Logo from '../../components/Logo';
 import Headline from './molecules/Headline';
 import BtnArrow from './molecules/BtnArrow';
@@ -14,7 +10,7 @@ import CardOrange from './molecules/CardOrange';
 import HeadlineUs from './molecules/HeadlineUs';
 import Steps from './molecules/Steps';
 import HeadlineTeam from './atoms/HeadlineTeam';
-
+import CardTeam from './molecules/CardTeam';
 import Footer from '../../components/Footer';
 
 const Home = () => {
@@ -35,6 +31,7 @@ const Home = () => {
         <Steps/>
         <BtnWhite/>
         <HeadlineTeam/>
+        <CardTeam/>
         <Footer/>
       </ScrollView>
     </ImageBackground>

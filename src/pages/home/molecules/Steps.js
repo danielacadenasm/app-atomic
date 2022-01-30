@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     marginHorizontal: 10,
-    marginVertical: 20,
+    marginVertical: 40,
   },
 });
 

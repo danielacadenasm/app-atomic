@@ -4,33 +4,33 @@ import { SafeAreaView, View, Text, FlatList, StyleSheet, Image } from 'react-nat
 const services = [
   {
     key: '1',
-    title: 'IMAGINA',
-    img: require("../../../assets/images/1.png"),
-    subtitle: '•  Estrategia Digital\n\n•  Big Data & Analysis\n\n•  Consultoría Tecnológica\n\n•  Reducción de costos TI\n',
+    title: 'Ramón Gómez',
+    img: require("../../../assets/images/ramon.png"),
+    subtitle: 'Front-end developer',
   },
   {
     key: '2',
-    title: 'EXPLORA',
-    img: require("../../../assets/images/2.png"),
-    subtitle: '•  Innovación y creación\n   tecnológica\n\n•  UI / UX\n\n•  Innovación\n',
+    title: 'Ximena Mejía',
+    img: require("../../../assets/images/ximena.png"),
+    subtitle: 'UX Designer',
   },
   {
     key: '3',
-    title: 'CONQUISTA',
-    img: require("../../../assets/images/3.png"),
-    subtitle: '•  Desarrollo tecnológico\n   y creación tecnológica\n\n•  Ciberseguridad\n\n•  Servicios de la Nube\n',
+    title: 'Jaime Domínguez',
+    img: require("../../../assets/images/jaime.png"),
+    subtitle: 'Back-end developer',
   },
 ];
 
-const CardOrange = () => {
+const CardTeam = () => {
 
   const Services = ({item}) => (
     <View style={styles.item}>
       <Image
         source={item.img}
         style={{
-          width: 220,
-          height: 220,
+          width: 150,
+          height: 150,
         }}
       />
       <Text style={styles.title}>{item.title}</Text>
@@ -44,7 +44,6 @@ const CardOrange = () => {
         data={services}
         renderItem={({item}) => <Services item={item} />}
         keyExtractor={item => item.key}
-        horizontal
       />
     </SafeAreaView>
   );
@@ -53,11 +52,12 @@ const CardOrange = () => {
 const styles = StyleSheet.create({
   container: {
     justifyContent: 'center',
+    marginBottom: 50,
   },
   item: {
-    backgroundColor: '#E84F0C',
+    backgroundColor: '#145A96',
     width: 360,
-    padding: 10,
+    padding: 30,
     marginVertical: 10,
     marginHorizontal: 15,
     borderRadius: 10,
@@ -65,17 +65,17 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: 'OpenSans',
-    fontSize: 30,
+    fontSize: 16,
     color: '#fff',
+    letterSpacing: 1,
     fontWeight: 'bold',
   },
   subtitle: {
     fontFamily: 'OpenSans',
-    fontSize: 18,
+    fontSize: 14,
     color: '#fff',
-    fontWeight: 'bold',
-    marginTop: 20,
+    letterSpacing: 1,
   }
 });
 
-export default CardOrange;
+export default CardTeam;
