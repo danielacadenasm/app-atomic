@@ -6,6 +6,7 @@ const BtnArrow = () => {
   return (
     <TouchableOpacity
       style={styles.button}
+      //onPress={window.location.href = 'HeadlineTechnology.js'}
     >
       <Avatar
         size={50}

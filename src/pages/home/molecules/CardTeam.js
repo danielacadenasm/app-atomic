@@ -31,6 +31,7 @@ const CardTeam = () => {
         style={{
           width: 150,
           height: 150,
+          marginBottom: 15,
         }}
       />
       <Text style={styles.title}>{item.title}</Text>

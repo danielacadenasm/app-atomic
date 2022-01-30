@@ -6,10 +6,13 @@ import ProgressBarTwo from './atoms/ProgressBarTwo';
 import HeadlineFormOne from './molecules/HeadlineFormOne';
 import HeadlineFormTwo from './molecules/HeadlineFormTwo';
 import Message from './atoms/Message';
-import InputNames from './atoms/InputNames';
-import InputLastNames from './atoms/InputLastNames';
+import MessageTwo from './atoms/MessageTwo';
+import InputNames from './molecules/InputNames';
+import InputPhone from './atoms/InputPhone';
 import BtnOrange from './atoms/BtnOrange';
+import BtnOrangeTwo from './atoms/BtnOrangeTwo';
 import ImgAstronaut from './atoms/ImgAstronaut';
+import ImgAstronautTwo from './atoms/ImgAstronautTwo';
 import Footer from '../../components/Footer';
 
 const Form = () => {
@@ -20,13 +23,14 @@ const Form = () => {
     >
       <ScrollView style={styles.container}>
         <Logo/>
+
         <ProgressBar/>
         <HeadlineFormOne/>
         <Message/>
         <InputNames/>
-        <InputLastNames/>
         <BtnOrange/>
         <ImgAstronaut/>
+
         <Footer/>
       </ScrollView>
     </ImageBackground>

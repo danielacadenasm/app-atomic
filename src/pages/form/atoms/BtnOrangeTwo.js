@@ -1,17 +1,16 @@
 import React from 'react';
 import { Button } from 'react-native-elements';
 
-const BtnOrange = () => {
+const BtnOrangeTwo = () => {
   return (
     <Button
-      title='Enviar'
+      title='Continuar'
       buttonStyle={{
         backgroundColor: '#E84F0C',
         borderRadius: 30,
         height: 45,
         width: 220,
         marginTop: 25,
-        marginBottom: 10,
       }}
       titleStyle={{
         fontFamily: 'OpenSans',
@@ -26,4 +25,4 @@ const BtnOrange = () => {
   );
 };
 
-export default BtnOrange;
+export default BtnOrangeTwo;

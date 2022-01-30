@@ -2,14 +2,14 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Image } from 'react-native-elements';
 
-const ImgAstronaut = () => {
+const ImgAstronautTwo = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../../assets/images/form.png')}
+        source={require('../../../assets/images/phone.png')}
         containerStyle={{
           width: '100%',
-          height: 410,
+          height: 500,
         }}
       />
     </View>
@@ -24,4 +24,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ImgAstronaut;
+export default ImgAstronautTwo;
