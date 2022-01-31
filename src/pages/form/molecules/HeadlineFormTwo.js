@@ -8,13 +8,9 @@ const HeadlineFormTwo = () => {
       <View style={styles.txt1}>
         <Image
           source={require('../../../assets/images/two.png')}
-          containerStyle={{
-            width: 45,
-            height: 45,
-          }}
+          containerStyle={{ width: 45, height: 45 }}
         />
       </View>
-
       <View style={styles.txt2}>
         <Text style={styles.e1}>VALIDA TU</Text>
         <Text style={styles.e2}>CELULAR</Text>

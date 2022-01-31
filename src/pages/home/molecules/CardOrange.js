@@ -5,19 +5,19 @@ const services = [
   {
     key: '1',
     title: 'IMAGINA',
-    img: require("../../../assets/images/1.png"),
+    img: require('../../../assets/images/1.png'),
     subtitle: '•  Estrategia Digital\n\n•  Big Data & Analysis\n\n•  Consultoría Tecnológica\n\n•  Reducción de costos TI\n',
   },
   {
     key: '2',
     title: 'EXPLORA',
-    img: require("../../../assets/images/2.png"),
+    img: require('../../../assets/images/2.png'),
     subtitle: '•  Innovación y creación\n   tecnológica\n\n•  UI / UX\n\n•  Innovación\n',
   },
   {
     key: '3',
     title: 'CONQUISTA',
-    img: require("../../../assets/images/3.png"),
+    img: require('../../../assets/images/3.png'),
     subtitle: '•  Desarrollo tecnológico\n   y creación tecnológica\n\n•  Ciberseguridad\n\n•  Servicios de la Nube\n',
   },
 ];
@@ -28,10 +28,7 @@ const CardOrange = () => {
     <View style={styles.item}>
       <Image
         source={item.img}
-        style={{
-          width: 220,
-          height: 220,
-        }}
+        style={{ width: 220, height: 220 }}
       />
       <Text style={styles.title}>{item.title}</Text>
       <Text style={styles.subtitle}>{item.subtitle}</Text>

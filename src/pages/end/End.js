@@ -1,14 +1,7 @@
 import React from 'react';
-import {
-  ImageBackground,
-  ScrollView,
-  StyleSheet,
-} from 'react-native';
+import { ImageBackground, ScrollView, StyleSheet } from 'react-native';
 import Logo from '../../components/Logo';
-import Headline from './molecules/Headline';
-import Message from './atoms/Message';
-import ImgAstronaut from './atoms/ImgAstronaut';
-
+import OrganismEnd from './organisms/OrganismEnd';
 import Footer from '../../components/Footer';
 
 const End = () => {
@@ -19,9 +12,9 @@ const End = () => {
     >
       <ScrollView style={styles.container}>
         <Logo/>
-        <Headline/>
-        <Message/>
-        <ImgAstronaut/>
+        
+        <OrganismEnd/>
+        
         <Footer/>
       </ScrollView>
     </ImageBackground>

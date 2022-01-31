@@ -5,19 +5,19 @@ const services = [
   {
     key: '1',
     title: 'Ramón Gómez',
-    img: require("../../../assets/images/ramon.png"),
+    img: require('../../../assets/images/ramon.png'),
     subtitle: 'Front-end developer',
   },
   {
     key: '2',
     title: 'Ximena Mejía',
-    img: require("../../../assets/images/ximena.png"),
+    img: require('../../../assets/images/ximena.png'),
     subtitle: 'UX Designer',
   },
   {
     key: '3',
     title: 'Jaime Domínguez',
-    img: require("../../../assets/images/jaime.png"),
+    img: require('../../../assets/images/jaime.png'),
     subtitle: 'Back-end developer',
   },
 ];
@@ -28,11 +28,7 @@ const CardTeam = () => {
     <View style={styles.item}>
       <Image
         source={item.img}
-        style={{
-          width: 150,
-          height: 150,
-          marginBottom: 15,
-        }}
+        style={{ width: 150, height: 150, marginBottom: 15 }}
       />
       <Text style={styles.title}>{item.title}</Text>
       <Text style={styles.subtitle}>{item.subtitle}</Text>

@@ -1,21 +1,23 @@
-import React from "react";
+import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Image } from 'react-native-elements';
 import * as Progress from 'react-native-progress';
 
-const ProgressBar = () => {
+const ProgressBarTwo = () => {
   return (
     <View style={styles.container}>
       <View style={styles.imgs}>
         <Image
-          source={require('../../../assets/images/one.png')}
-          style={styles.item}/>
+          source={require('../../../assets/images/checkmark.png')}
+          style={styles.item}
+        />
         <Image
-          source={require('../../../assets/images/twogray.png')}
-          style={styles.item}/>
+          source={require('../../../assets/images/twoborder.png')}
+          style={styles.item}
+        />
       </View>
-      
-      <Progress.Bar progress={0.4} width={350} color='#E84F0C' unfilledColor='#fff' height={12} borderRadius={5} borderWidth={0} />
+
+      <Progress.Bar progress={1} width={350} color='#E84F0C' unfilledColor='#fff' height={12} borderRadius={5} borderWidth={0} />
     </View>
   );
 };
@@ -37,4 +39,4 @@ const styles = StyleSheet.create({
     },
   });
 
-export default ProgressBar;
+export default ProgressBarTwo;

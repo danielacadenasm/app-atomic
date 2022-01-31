@@ -15,26 +15,11 @@ const Steps = () => {
 
       <View style={styles.containerTxt}>
         <Text style={styles.txt1}>Contratación{"\n"}remota</Text>
-        <Icon
-          style={styles.icon}
-          name='arrow-forward'
-          color='#E84F0C'
-          size={15}
-        />
+        <Icon style={styles.icon} name='arrow-forward' color='#E84F0C' size={15} />
         <Text style={styles.txt2}>Entrevista con{"\n"}el área de RH</Text>
-        <Icon
-          style={styles.icon}
-          name='arrow-forward'
-          color='#E84F0C'
-          size={15}
-        />
+        <Icon style={styles.icon} name='arrow-forward' color='#E84F0C' size={15} />
         <Text style={styles.txt3}>Prueba{"\n"}práctica</Text>
-        <Icon
-          style={styles.icon}
-          name='arrow-forward'
-          color='#E84F0C'
-          size={15}
-        />
+        <Icon style={styles.icon} name='arrow-forward' color='#E84F0C' size={15} />
         <Text style={styles.txt4}>Entrevista{"\n"}técnica</Text>
       </View>
     </View>

@@ -2,19 +2,15 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Image } from 'react-native-elements';
 
-const HeadlineFormOne = () => {
+const HeadlineForm = () => {
   return (
     <View style={styles.container}>
       <View style={styles.txt1}>
         <Image
           source={require('../../../assets/images/one.png')}
-          containerStyle={{
-            width: 45,
-            height: 45,
-          }}
+          containerStyle={{ width: 45, height: 45 }}
         />
       </View>
-
       <View style={styles.txt2}>
         <Text style={styles.e1}>TE QUEREMOS</Text>
         <Text style={styles.e2}>CONOCER</Text>
@@ -55,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HeadlineFormOne;
+export default HeadlineForm;

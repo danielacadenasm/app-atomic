@@ -1,21 +1,11 @@
 import React from 'react';
 import { ImageBackground, ScrollView, StyleSheet} from 'react-native';
 import Logo from '../../components/Logo';
-import ProgressBar from './atoms/ProgressBar';
-import ProgressBarTwo from './atoms/ProgressBarTwo';
-import HeadlineFormOne from './molecules/HeadlineFormOne';
-import HeadlineFormTwo from './molecules/HeadlineFormTwo';
-import Message from './atoms/Message';
-import MessageTwo from './atoms/MessageTwo';
-import InputNames from './molecules/InputNames';
-import InputPhone from './atoms/InputPhone';
-import BtnOrange from './atoms/BtnOrange';
-import BtnOrangeTwo from './atoms/BtnOrangeTwo';
-import ImgAstronaut from './atoms/ImgAstronaut';
-import ImgAstronautTwo from './atoms/ImgAstronautTwo';
+import Inputs from './organisms/Inputs';
 import Footer from '../../components/Footer';
 
 const Form = () => {
+
   return (
     <ImageBackground
       source={require('../../assets/images/fondo.png')}
@@ -23,14 +13,7 @@ const Form = () => {
     >
       <ScrollView style={styles.container}>
         <Logo/>
-
-        <ProgressBar/>
-        <HeadlineFormOne/>
-        <Message/>
-        <InputNames/>
-        <BtnOrange/>
-        <ImgAstronaut/>
-
+        <Inputs/>
         <Footer/>
       </ScrollView>
     </ImageBackground>

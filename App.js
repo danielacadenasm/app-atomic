@@ -14,29 +14,20 @@ const App = () => {
         <Stack.Screen
           name='Home'
           component={Home}
-          options={{
-            title: 'Home',
-            headerShown: false,
-          }}
+          options={{ title: 'Home', headerShown: false }}
         />
         <Stack.Screen
           name='Form'
           component={Form}
-          options={{
-            title: 'Home',
-            headerShown: false,
-          }}
+          options={{ title: 'Home', headerShown: false }}
         />
         <Stack.Screen
           name='End'
           component={End}
-          options={{
-            title: 'Home',
-            headerShown: false,
-          }}
+          options={{ title: 'Home', headerShown: false }}
         />
       </Stack.Navigator>
-  </NavigationContainer>
+    </NavigationContainer>
   );
 };
 
