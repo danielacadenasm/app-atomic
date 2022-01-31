@@ -8,7 +8,6 @@ import End from './src/pages/end/End';
 const Stack = createNativeStackNavigator();
 
 const App = () => {
-
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
